@@ -9,7 +9,7 @@ export default function Hello() {
       <h1 className="text-2xl font-black">{`Welcome Minsu\'s blog`}</h1>
       <h2 className="text-xl font-black">💻I want to become a front-end developer💻</h2>
       <h2 className="text-xl font-black">Department of Convergence Software, Myongji Univ.</h2>
-      <Link href={'/contact'} className="bg-yellow-400 rounded-lg px-5 py-1 block w-1/5 mx-auto font-bold">
+      <Link href={'/contact'} className="bg-yellow-400 rounded-lg px-5 py-1 block w-60 mx-auto font-bold">
         Contact Me
       </Link>
     </div>

@@ -43,7 +43,7 @@ export default function Menu() {
     <>
       <HiMenu className={`w-8 h-8 sm:hidden ${isMenuOpen ? 'hidden' : 'block'}`} onClick={handleChangeMenu} />
       {isMenuOpen ? (
-        <div ref={outsideRef} className="flex flex-col justify-center space-y-7 fixed top-0 right-0 border h-full w-32 items-center">
+        <div ref={outsideRef} className="flex flex-col justify-center space-y-7 fixed top-0 right-0 border h-full w-32 items-center bg-white">
           {navItems.map((item, index) => {
             return (
               <li key={index} className="list-none">
